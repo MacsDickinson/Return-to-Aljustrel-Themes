@@ -1,0 +1,246 @@
+html
+{
+	background-color: #333333;
+}
+
+/* container for column elements */
+.container
+{
+	width: 958px;
+	margin: 0 auto;
+}
+
+.column
+{
+	display: inline;
+	float: left;
+	position: relative;
+ 	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	width: 338px;
+}
+
+	.column:first-child
+	{
+		margin-left: 0;
+	}
+
+.double
+{
+	width: 600px;
+}
+
+.triple
+{
+	width: 958px;
+}
+
+.container:after, .column:after 
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#header
+{
+	background-color: #333333;
+    margin-top: -10px;
+    padding-top: 20px;
+    background-image: url(../Images/wood_black_bg.png);
+    background-position: bottom;
+}
+
+	#header ul
+	{
+		list-style: none;
+		margin: 0px;
+        float: right;
+	}
+	
+		#header ul li 
+		{
+            border-radius: 20px 20px 0px 0px;
+			display: block;
+			float: left;
+		    padding: 15px 10px 15px 10px;
+		}
+
+			#header ul li a 
+			{
+				color: #CCCCCC;
+				display: block;
+				height: 30px;
+				text-align: center;
+				text-decoration: none;
+				font-family: Georgia, Geneva, sans-serif;
+				font-size: 16px;
+				font-weight: 500;
+				width: 75px;
+			}
+			
+			#header ul li.current a
+			{
+				/*color: #3399CC;*/
+                color: #333333;
+			}
+			#header ul li.current
+			{
+                background-color: #CCCCCC;
+			}
+			#header ul li:hover 
+			{
+				color: #FFFFFF;
+			}
+
+#logo
+{
+    background-image: url(../Images/Aljustrel_Logo_White.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    height: 254px;
+    width: 810px;
+}
+
+#content
+{
+	background-image: url(../Images/wood_fade_bg.png);
+	background-repeat: repeat-x;
+    background-position: top;
+	padding: 20px 0;
+}
+
+    #content p
+    {
+		font-family: Georgia, Geneva, sans-serif;
+    }
+
+
+.featured
+{
+	padding: 20px;
+	background-color: #3399CC;
+	color: #FFFFFF;
+	font-size: 200%;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+	.featured:after
+	{
+		margin-top: 14px;
+		content: url(../images/speech.gif);
+		display: block;
+		position: absolute;
+	}
+
+
+#footer
+{
+	background-image: url(../Images/wood_black_bg.png);
+	
+	background-color: #333333;
+	color: #DDDDDD;
+	padding: 20px 0 0 0;
+}
+	
+	#footer .column
+	{
+		padding-bottom: 10px;	
+	}
+	
+	#footer h1
+	{
+		padding-bottom: 10px;
+		border-bottom: 1px dashed #999;
+		font-size: 150%;
+	}
+
+	#footer .copyright
+	{
+		border-top: 1px dashed #999;
+		padding-top: 15px;
+	}
+	
+	#footer .copyright p
+	{
+		text-align: right;
+	}
+	
+	#footer .copyright a
+	{
+		background-color: #3399CC;
+		color: #FFFFFF;
+		text-decoration: none;
+		padding: 5px 10px;
+		margin: 0 0 0 5px;
+	}
+
+	#footer .copyright a:hover
+	{
+		background-color: #DF591E;	
+	}
+
+.widget-soundcloud
+{
+    padding: 5px 0px;
+}
+    .widget-soundcloud .typo-title
+    {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+
+.social_icons {
+    float: right;   
+}
+
+    .social_icons a
+    {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url("../Images/socialicons_grey.png");
+    }
+        .social_icons a:hover
+        {
+            background-position-y: -26px;
+        }
+        .twitter
+        {
+            background-position-x: -27px;
+        }
+        .facebook
+        {
+            background-position-x: 0px;
+        } 
+        .soundcloud
+        {
+            background-position-x: -54px;
+        }
+        .tumblr
+        {
+            background-position-x: -108px;
+        }
+        .lastfm
+        {
+            background-position-x: -81px;
+        }
+        .myspace
+        {
+            background-position-x: -135px;
+        }
+
+.latest-twitter-follow-link
+{
+    display: none;
+}
+
+.content-control, .widget-control
+{
+    border: dashed 1px #adadad;
+}

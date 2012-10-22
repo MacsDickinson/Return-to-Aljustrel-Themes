@@ -1,0 +1,7 @@
+﻿Name: Return To Aljustrel - Rotating Snakes
+Author: Macs Dickinson
+Description: Theme made specifically for Return to Aljustrel
+Version: 1.0
+Tags: Music, Personal
+Website: http://www.macsentom.co.uk
+Zones: Navigation, Messages, BeforeContent, Content, AfterContent, FooterFirst, FooterSecond, FooterThird
